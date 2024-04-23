@@ -1,0 +1,45 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url('/387736459_823151572942875_2027712329105850895_n.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+div{
+    /* backdrop-filter: blur(20px); */
+    margin-left: 20px;
+}
+
+.mariam{
+    position: absolute;
+    top: 20px;
+    /* left: 50%; */
+    color: brown;
+}
+
+a{
+    text-align: center;
+    font-size: 2.5rem;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    color: #661111;
+    z-index: 999;
+    font-weight: bold;
+
+}
+
+.minutes{
+    font-size: 5rem;
+    color: red;
+    z-index: 999;
+}
